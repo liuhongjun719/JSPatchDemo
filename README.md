@@ -15,9 +15,6 @@ defineClass('ThirdViewController : UIViewController <UITableViewDelegate, UITabl
             self.setData(data)
             return data;
             },
-            
-            
-            
             viewDidLoad: function() {
             self.super().viewDidLoad()
             self.setTitle("ThirdViewController")
