@@ -2,9 +2,8 @@
 使用JSPatch实现热更新，用JSPatch创建常用控件，创建tableview和自定义tableviewCell
 
 # 代码示例
-    ```javascript
-    
-    
+
+```javascript
 require('UIView, UIColor, UIButton, UIImageView, UITableView, UIImage, ThirdViewController, ModelItem, JPObject')
 
 
@@ -72,4 +71,4 @@ defineClass('ThirdViewController : UIViewController <UITableViewDelegate, UITabl
             
             
             })
-    ```
+            ```
