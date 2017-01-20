@@ -9,7 +9,6 @@ require('UIView, UIColor, UIButton, UIImageView, UITableView, UIImage, ThirdView
 
 defineClass('ThirdViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>', ['data'],{
             
-            
             dataSource: function() {
             var data = self.data();
             if (data) return data;
@@ -65,10 +64,6 @@ defineClass('ThirdViewController : UIViewController <UITableViewDelegate, UITabl
             var alertView = require('UIAlertView').alloc().initWithTitle_message_delegate_cancelButtonTitle_otherButtonTitles("Alert",self.dataSource()[indexPath.row()], self, "OK",  null);
             alertView.show()
             },
-            
-            
-
-            
             
             })
 ```
