@@ -4,7 +4,10 @@
 # 代码示例
     ```javascript
 require('UIView, UIColor, UIButton, UIImageView, UITableView, UIImage, ThirdViewController, ModelItem, JPObject')
+
 defineClass('ThirdViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>', ['data'],{
+            
+            
             dataSource: function() {
             var data = self.data();
             if (data) return data;
@@ -15,6 +18,8 @@ defineClass('ThirdViewController : UIViewController <UITableViewDelegate, UITabl
             self.setData(data)
             return data;
             },
+            
+            
             viewDidLoad: function() {
             self.super().viewDidLoad()
             self.setTitle("ThirdViewController")
@@ -26,9 +31,6 @@ defineClass('ThirdViewController : UIViewController <UITableViewDelegate, UITabl
             tableView.setTableFooterView(UIView.alloc().init())
             tableView.setSeparatorStyle(UITableViewCellSeparatorStyleNone)
             self.view().addSubview(tableView)
-            
-
-
             },
             
             
