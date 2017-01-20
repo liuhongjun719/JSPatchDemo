@@ -7,8 +7,11 @@
 //
 
 #import "SecondViewController.h"
+#import "RequestManager.h"
+#import "ResponseObject.h"
 
 @interface SecondViewController ()<UIAlertViewDelegate>
+
 
 @end
 
@@ -21,9 +24,10 @@
     [vie setBackgroundColor:[UIColor greenColor]];
     [self.view addSubview:vie];
     
-
     
 }
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

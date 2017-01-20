@@ -8,7 +8,13 @@
 
 #import "ThirdViewController.h"
 #import "ThirdTableViewCell.h"
+#import "RequestManager.h"
+#import "ResponseObject.h"
+
 @interface ThirdViewController ()<UITableViewDelegate, UITableViewDataSource>
+@property (nonatomic, strong) ResponseObject *responseObject;
+@property (nonatomic, strong) NSArray *dataArray;
+@property (nonatomic, strong) NSString *stringOne;
 
 @end
 
@@ -16,19 +22,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-//    self.title = @"ThirdViewController";
-//    UITableView *tableview = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
-//    tableview.delegate = self;
-//    tableview.dataSource = self;
-//    [self.view addSubview:tableview];
-//    [tableview setDelegate:self];
-//    [tableview setDataSource:self];
+    self.stringOne = @"mmmmmmmmmmmm";
+    _dataArray = [NSArray array];
     
-//    [tableview registerNib:[UINib nibWithNibName:@"ThirdTableViewCell" bundle:nil] forCellReuseIdentifier:@"cell"];
-    
-//    [tableview  registerClass:[ThirdTableViewCell class] forCellReuseIdentifier:@"cell"];
+    [self requestData];
 }
+
+
+- (void)requestData {
+    [[RequestManager sharedInstance] requestWithType:GetDataTypeGet urlString:TopicOrderSourceUrl  parameters:nil interfaceType:TopicOrderSourceUrl_interface finished:^(id response, NSError *error) {
+        _responseObject = response;
+        _dataArray = _responseObject.info;
+        NSLog(@"===========:%lu", (unsigned long)_dataArray.count);
+    }];
+}
+
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

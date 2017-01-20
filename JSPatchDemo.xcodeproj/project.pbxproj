@@ -13,12 +13,18 @@
 		8E2F8A491E3089FE0051D6EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F8A471E3089FE0051D6EF /* Main.storyboard */; };
 		8E2F8A4B1E3089FE0051D6EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F8A4A1E3089FE0051D6EF /* Assets.xcassets */; };
 		8E2F8A4E1E3089FE0051D6EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F8A4C1E3089FE0051D6EF /* LaunchScreen.storyboard */; };
-		8E2F8A5C1E308BAE0051D6EF /* demo.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F8A551E308BAE0051D6EF /* demo.js */; };
 		8E2F8A5D1E308BAE0051D6EF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2F8A571E308BAE0051D6EF /* SecondViewController.m */; };
 		8E2F8A5E1E308BAE0051D6EF /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F8A581E308BAE0051D6EF /* SecondViewController.xib */; };
 		8E2F8A5F1E308BAE0051D6EF /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2F8A5A1E308BAE0051D6EF /* ThirdViewController.m */; };
 		8E2F8A601E308BAE0051D6EF /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F8A5B1E308BAE0051D6EF /* ThirdViewController.xib */; };
 		8E2F8A6B1E30972E0051D6EF /* ThirdTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2F8A6A1E30972E0051D6EF /* ThirdTableViewCell.m */; };
+		8E2F8A741E30AB900051D6EF /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2F8A6F1E30AB900051D6EF /* RequestManager.m */; };
+		8E2F8A751E30AB900051D6EF /* ResponseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2F8A711E30AB900051D6EF /* ResponseObject.m */; };
+		8E2F8A761E30AB900051D6EF /* ResultAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2F8A731E30AB900051D6EF /* ResultAnalyzer.m */; };
+		8E2F8A791E30AC6D0051D6EF /* ModelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2F8A781E30AC6D0051D6EF /* ModelItem.m */; };
+		8E2F8A7B1E31D9A90051D6EF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E2F8A7A1E31D9A90051D6EF /* libz.tbd */; };
+		8E2F8A7D1E31DAA00051D6EF /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E2F8A7C1E31DAA00051D6EF /* JavaScriptCore.framework */; };
+		8E2F8A811E31E24F0051D6EF /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F8A801E31E24F0051D6EF /* main.js */; };
 		C377A8D809682CFA5F3B904F /* libPods-JSPatchDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF85A7DE13ABF4789B42FC9E /* libPods-JSPatchDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +39,6 @@
 		8E2F8A4A1E3089FE0051D6EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E2F8A4D1E3089FE0051D6EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E2F8A4F1E3089FE0051D6EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E2F8A551E308BAE0051D6EF /* demo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = demo.js; sourceTree = "<group>"; };
 		8E2F8A561E308BAE0051D6EF /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		8E2F8A571E308BAE0051D6EF /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		8E2F8A581E308BAE0051D6EF /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
@@ -42,6 +47,18 @@
 		8E2F8A5B1E308BAE0051D6EF /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
 		8E2F8A691E30972E0051D6EF /* ThirdTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdTableViewCell.h; sourceTree = "<group>"; };
 		8E2F8A6A1E30972E0051D6EF /* ThirdTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdTableViewCell.m; sourceTree = "<group>"; };
+		8E2F8A6D1E30AB900051D6EF /* RequestHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestHeader.h; sourceTree = "<group>"; };
+		8E2F8A6E1E30AB900051D6EF /* RequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestManager.h; sourceTree = "<group>"; };
+		8E2F8A6F1E30AB900051D6EF /* RequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestManager.m; sourceTree = "<group>"; };
+		8E2F8A701E30AB900051D6EF /* ResponseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseObject.h; sourceTree = "<group>"; };
+		8E2F8A711E30AB900051D6EF /* ResponseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseObject.m; sourceTree = "<group>"; };
+		8E2F8A721E30AB900051D6EF /* ResultAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultAnalyzer.h; sourceTree = "<group>"; };
+		8E2F8A731E30AB900051D6EF /* ResultAnalyzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultAnalyzer.m; sourceTree = "<group>"; };
+		8E2F8A771E30AC6D0051D6EF /* ModelItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelItem.h; sourceTree = "<group>"; };
+		8E2F8A781E30AC6D0051D6EF /* ModelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelItem.m; sourceTree = "<group>"; };
+		8E2F8A7A1E31D9A90051D6EF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		8E2F8A7C1E31DAA00051D6EF /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		8E2F8A801E31E24F0051D6EF /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 		C23A39CA9C7BCE00CD292D19 /* Pods-JSPatchDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPatchDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSPatchDemo/Pods-JSPatchDemo.release.xcconfig"; sourceTree = "<group>"; };
 		CF85A7DE13ABF4789B42FC9E /* libPods-JSPatchDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSPatchDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE77B263335720BC998B2EE /* Pods-JSPatchDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPatchDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSPatchDemo/Pods-JSPatchDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -52,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E2F8A7D1E31DAA00051D6EF /* JavaScriptCore.framework in Frameworks */,
+				8E2F8A7B1E31D9A90051D6EF /* libz.tbd in Frameworks */,
 				C377A8D809682CFA5F3B904F /* libPods-JSPatchDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,6 +90,8 @@
 		5F773FC35126D956873635E6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8E2F8A7C1E31DAA00051D6EF /* JavaScriptCore.framework */,
+				8E2F8A7A1E31D9A90051D6EF /* libz.tbd */,
 				CF85A7DE13ABF4789B42FC9E /* libPods-JSPatchDemo.a */,
 			);
 			name = Frameworks;
@@ -97,11 +118,12 @@
 		8E2F8A3D1E3089FE0051D6EF /* JSPatchDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8E2F8A6C1E30AB900051D6EF /* Request */,
 				8E2F8A411E3089FE0051D6EF /* AppDelegate.h */,
 				8E2F8A421E3089FE0051D6EF /* AppDelegate.m */,
 				8E2F8A441E3089FE0051D6EF /* ViewController.h */,
 				8E2F8A451E3089FE0051D6EF /* ViewController.m */,
-				8E2F8A551E308BAE0051D6EF /* demo.js */,
+				8E2F8A801E31E24F0051D6EF /* main.js */,
 				8E2F8A561E308BAE0051D6EF /* SecondViewController.h */,
 				8E2F8A571E308BAE0051D6EF /* SecondViewController.m */,
 				8E2F8A581E308BAE0051D6EF /* SecondViewController.xib */,
@@ -125,6 +147,22 @@
 				8E2F8A3F1E3089FE0051D6EF /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E2F8A6C1E30AB900051D6EF /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				8E2F8A6D1E30AB900051D6EF /* RequestHeader.h */,
+				8E2F8A6E1E30AB900051D6EF /* RequestManager.h */,
+				8E2F8A6F1E30AB900051D6EF /* RequestManager.m */,
+				8E2F8A701E30AB900051D6EF /* ResponseObject.h */,
+				8E2F8A711E30AB900051D6EF /* ResponseObject.m */,
+				8E2F8A721E30AB900051D6EF /* ResultAnalyzer.h */,
+				8E2F8A731E30AB900051D6EF /* ResultAnalyzer.m */,
+				8E2F8A771E30AC6D0051D6EF /* ModelItem.h */,
+				8E2F8A781E30AC6D0051D6EF /* ModelItem.m */,
+			);
+			path = Request;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,8 +230,8 @@
 				8E2F8A4E1E3089FE0051D6EF /* LaunchScreen.storyboard in Resources */,
 				8E2F8A4B1E3089FE0051D6EF /* Assets.xcassets in Resources */,
 				8E2F8A601E308BAE0051D6EF /* ThirdViewController.xib in Resources */,
+				8E2F8A811E31E24F0051D6EF /* main.js in Resources */,
 				8E2F8A491E3089FE0051D6EF /* Main.storyboard in Resources */,
-				8E2F8A5C1E308BAE0051D6EF /* demo.js in Resources */,
 				8E2F8A5E1E308BAE0051D6EF /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,10 +292,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E2F8A5D1E308BAE0051D6EF /* SecondViewController.m in Sources */,
+				8E2F8A751E30AB900051D6EF /* ResponseObject.m in Sources */,
+				8E2F8A791E30AC6D0051D6EF /* ModelItem.m in Sources */,
 				8E2F8A5F1E308BAE0051D6EF /* ThirdViewController.m in Sources */,
 				8E2F8A461E3089FE0051D6EF /* ViewController.m in Sources */,
+				8E2F8A741E30AB900051D6EF /* RequestManager.m in Sources */,
 				8E2F8A431E3089FE0051D6EF /* AppDelegate.m in Sources */,
 				8E2F8A401E3089FE0051D6EF /* main.m in Sources */,
+				8E2F8A761E30AB900051D6EF /* ResultAnalyzer.m in Sources */,
 				8E2F8A6B1E30972E0051D6EF /* ThirdTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

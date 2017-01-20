@@ -64,7 +64,7 @@
 		</dict>
 		<key>Info.plist</key>
 		<data>
-		5NYCQWpyQK6Y/gm4CCOQPnMTUU0=
+		y+jIEn1JEEMNYSh+BxbqUUx0+JY=
 		</data>
 		<key>JSPatch.js</key>
 		<data>
@@ -82,9 +82,9 @@
 		<data>
 		HLkWRBfFvWtHFJPHbsK5b4PEQ4k=
 		</data>
-		<key>demo.js</key>
+		<key>main.js</key>
 		<data>
-		6FZSWnQZR5fs0rAw6CBcmibc0GU=
+		oLzasstuFeU/hB80Ynmu2VZwlu4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -211,15 +211,15 @@
 			b2uLAxh9JF6iB0fxs9COzffHpKDwe/Bm+cJ6VEQftV4=
 			</data>
 		</dict>
-		<key>demo.js</key>
+		<key>main.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6FZSWnQZR5fs0rAw6CBcmibc0GU=
+			oLzasstuFeU/hB80Ynmu2VZwlu4=
 			</data>
 			<key>hash2</key>
 			<data>
-			s/1eNiJcukfbC2N7GHW10dnL5lp09aR46npPyQtt81o=
+			MUaybn6XqzrZlXyNE3dKgY/N286MNLxum/vbYsRCLqI=
 			</data>
 		</dict>
 	</dict>

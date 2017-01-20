@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "JPEngine.h"
 #import "ViewController.h"
+#import <JSPatchPlatform/JSPatch.h>
 
 @interface AppDelegate ()
 
@@ -18,10 +19,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    //读取本地的JavaScript文件进行代码运行(main.js文件)
+    /*
     [JPEngine startEngine];
-    NSString *sourcePath = [[NSBundle mainBundle] pathForResource:@"demo" ofType:@"js"];
+    NSString *sourcePath = [[NSBundle mainBundle] pathForResource:@"main" ofType:@"js"];
     NSString *script = [NSString stringWithContentsOfFile:sourcePath encoding:NSUTF8StringEncoding error:nil];
     [JPEngine evaluateScript:script];
+     */
+    
+    //获取网络的JavaScript文件进行代码运行(main.js文件)
+    [JSPatch startWithAppKey:@"4a4ce3160911c906"];
+    //用来检测回调的状态，是更新或者是执行脚本之类的，相关信息，会打印在你的控制台
+    [JSPatch setupCallback:^(JPCallbackType type, NSDictionary *data, NSError *error) {
+    }];
+    [JSPatch setupDevelopment];
+    [JSPatch sync];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     ViewController *rootViewController = [[ViewController alloc] init];
