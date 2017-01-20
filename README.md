@@ -4,7 +4,7 @@
 ## JSPatch网站
 http://jspatch.com
 
-## 代码示例
+## 部分代码示例
 
 ```javascript
 require('UIView, UIColor, UIButton, UIImageView, UITableView, UIImage, ThirdViewController, ModelItem, JPObject')
