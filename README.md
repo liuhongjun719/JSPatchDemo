@@ -3,7 +3,10 @@
 
 # 代码示例
     ```javascript
+    
+    
 require('UIView, UIColor, UIButton, UIImageView, UITableView, UIImage, ThirdViewController, ModelItem, JPObject')
+
 
 defineClass('ThirdViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>', ['data'],{
             
