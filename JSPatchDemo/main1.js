@@ -1,5 +1,6 @@
 
 require('UIView, UIColor, UIButton, UIImageView, UITableView, UIImage, ThirdViewController, ModelItem, JPObject')
+autoConvertOCType(1)
 
 
 defineClass('ViewController', {
@@ -71,7 +72,7 @@ defineClass('SecondViewController:UIViewController <UIAlertViewDelegate>', {
             //class method
             })
 
-/*
+
 //自定制cell
 defineClass('ThirdViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>', ['data', 'tableView'],{
             dataSource: function() {
@@ -100,12 +101,12 @@ defineClass('ThirdViewController : UIViewController <UITableViewDelegate, UITabl
             tableView.setTableFooterView(UIView.alloc().init())
             tableView.setSeparatorStyle(UITableViewCellSeparatorStyleNone)
             self.view().addSubview(tableView)
-//            var array = self.dataArray(\
+            var array = self.dataArray()
 //4       1
             
-             xvar string = self.stringOne();
+//             xvar string = self.stringOne();
 //            console.log("-----kkkkkk000-----:"+string.toJS())
-//            console.log("-----kkkkkk111-----:"+array.toJS())
+            console.log("-----kkkkkk111-----:"+array)
             
             
 
@@ -148,9 +149,9 @@ defineClass('ThirdViewController : UIViewController <UITableViewDelegate, UITabl
             
             
             })
-*/
 
 
+/*
 //自定制cell
 defineClass('ThirdViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>', ['data'],{
             dataSource: function() {
@@ -219,7 +220,7 @@ defineClass('ThirdViewController : UIViewController <UITableViewDelegate, UITabl
             
             })
 
-
+*/
 //系统cell
 defineClass('JSTableViewController : UITableViewController <UIAlertViewDelegate>', ['data'], {
   dataSource: function() {

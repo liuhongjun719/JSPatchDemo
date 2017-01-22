@@ -24,7 +24,23 @@
 		8E2F8A791E30AC6D0051D6EF /* ModelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2F8A781E30AC6D0051D6EF /* ModelItem.m */; };
 		8E2F8A7B1E31D9A90051D6EF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E2F8A7A1E31D9A90051D6EF /* libz.tbd */; };
 		8E2F8A7D1E31DAA00051D6EF /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E2F8A7C1E31DAA00051D6EF /* JavaScriptCore.framework */; };
-		8E2F8A811E31E24F0051D6EF /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F8A801E31E24F0051D6EF /* main.js */; };
+		8E2F8A841E343FDD0051D6EF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E2F8A831E343FDD0051D6EF /* MapKit.framework */; };
+		8E2F8A861E34554E0051D6EF /* main1.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F8A851E34554E0051D6EF /* main1.js */; };
+		8E2F8A961E3455F50051D6EF /* CommonDefine.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F8A881E3455F50051D6EF /* CommonDefine.js */; };
+		8E2F8A971E3455F50051D6EF /* DBDataSource.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F8A891E3455F50051D6EF /* DBDataSource.js */; };
+		8E2F8A981E3455F50051D6EF /* DBDetailController.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F8A8A1E3455F50051D6EF /* DBDetailController.js */; };
+		8E2F8A991E3455F50051D6EF /* DBDetailViews.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F8A8B1E3455F50051D6EF /* DBDetailViews.js */; };
+		8E2F8A9A1E3455F50051D6EF /* DBTimelineController.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F8A8C1E3455F50051D6EF /* DBTimelineController.js */; };
+		8E2F8A9B1E3455F50051D6EF /* DBTimelineViews.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F8A8D1E3455F50051D6EF /* DBTimelineViews.js */; };
+		8E2F8A9C1E3455F50051D6EF /* DBUserController.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F8A8E1E3455F50051D6EF /* DBUserController.js */; };
+		8E2F8A9D1E3455F50051D6EF /* DBUserViews.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F8A8F1E3455F50051D6EF /* DBUserViews.js */; };
+		8E2F8A9E1E3455F50051D6EF /* comment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F8A911E3455F50051D6EF /* comment@2x.png */; };
+		8E2F8A9F1E3455F50051D6EF /* like@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F8A921E3455F50051D6EF /* like@2x.png */; };
+		8E2F8AA01E3455F50051D6EF /* view@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F8A931E3455F50051D6EF /* view@2x.png */; };
+		8E2F8AA11E3455F50051D6EF /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F8A941E3455F50051D6EF /* main.js */; };
+		8E2F8AA21E3455F50051D6EF /* tmpData.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F8A951E3455F50051D6EF /* tmpData.js */; };
+		8E2F8AA41E34576C0051D6EF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E2F8AA31E34576C0051D6EF /* Security.framework */; };
+		8E2F8AA61E3457730051D6EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E2F8AA51E3457730051D6EF /* UIKit.framework */; };
 		C377A8D809682CFA5F3B904F /* libPods-JSPatchDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF85A7DE13ABF4789B42FC9E /* libPods-JSPatchDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -58,7 +74,24 @@
 		8E2F8A781E30AC6D0051D6EF /* ModelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelItem.m; sourceTree = "<group>"; };
 		8E2F8A7A1E31D9A90051D6EF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		8E2F8A7C1E31DAA00051D6EF /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		8E2F8A801E31E24F0051D6EF /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		8E2F8A821E343FC70051D6EF /* JSPatchDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JSPatchDemo.entitlements; sourceTree = "<group>"; };
+		8E2F8A831E343FDD0051D6EF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8E2F8A851E34554E0051D6EF /* main1.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main1.js; sourceTree = "<group>"; };
+		8E2F8A881E3455F50051D6EF /* CommonDefine.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = CommonDefine.js; sourceTree = "<group>"; };
+		8E2F8A891E3455F50051D6EF /* DBDataSource.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = DBDataSource.js; sourceTree = "<group>"; };
+		8E2F8A8A1E3455F50051D6EF /* DBDetailController.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = DBDetailController.js; sourceTree = "<group>"; };
+		8E2F8A8B1E3455F50051D6EF /* DBDetailViews.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = DBDetailViews.js; sourceTree = "<group>"; };
+		8E2F8A8C1E3455F50051D6EF /* DBTimelineController.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = DBTimelineController.js; sourceTree = "<group>"; };
+		8E2F8A8D1E3455F50051D6EF /* DBTimelineViews.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = DBTimelineViews.js; sourceTree = "<group>"; };
+		8E2F8A8E1E3455F50051D6EF /* DBUserController.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = DBUserController.js; sourceTree = "<group>"; };
+		8E2F8A8F1E3455F50051D6EF /* DBUserViews.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = DBUserViews.js; sourceTree = "<group>"; };
+		8E2F8A911E3455F50051D6EF /* comment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "comment@2x.png"; sourceTree = "<group>"; };
+		8E2F8A921E3455F50051D6EF /* like@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "like@2x.png"; sourceTree = "<group>"; };
+		8E2F8A931E3455F50051D6EF /* view@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "view@2x.png"; sourceTree = "<group>"; };
+		8E2F8A941E3455F50051D6EF /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		8E2F8A951E3455F50051D6EF /* tmpData.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = tmpData.js; sourceTree = "<group>"; };
+		8E2F8AA31E34576C0051D6EF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8E2F8AA51E3457730051D6EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C23A39CA9C7BCE00CD292D19 /* Pods-JSPatchDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPatchDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSPatchDemo/Pods-JSPatchDemo.release.xcconfig"; sourceTree = "<group>"; };
 		CF85A7DE13ABF4789B42FC9E /* libPods-JSPatchDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSPatchDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE77B263335720BC998B2EE /* Pods-JSPatchDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPatchDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSPatchDemo/Pods-JSPatchDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -69,8 +102,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E2F8AA61E3457730051D6EF /* UIKit.framework in Frameworks */,
+				8E2F8AA41E34576C0051D6EF /* Security.framework in Frameworks */,
 				8E2F8A7D1E31DAA00051D6EF /* JavaScriptCore.framework in Frameworks */,
 				8E2F8A7B1E31D9A90051D6EF /* libz.tbd in Frameworks */,
+				8E2F8A841E343FDD0051D6EF /* MapKit.framework in Frameworks */,
 				C377A8D809682CFA5F3B904F /* libPods-JSPatchDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,6 +126,9 @@
 		5F773FC35126D956873635E6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8E2F8AA51E3457730051D6EF /* UIKit.framework */,
+				8E2F8AA31E34576C0051D6EF /* Security.framework */,
+				8E2F8A831E343FDD0051D6EF /* MapKit.framework */,
 				8E2F8A7C1E31DAA00051D6EF /* JavaScriptCore.framework */,
 				8E2F8A7A1E31D9A90051D6EF /* libz.tbd */,
 				CF85A7DE13ABF4789B42FC9E /* libPods-JSPatchDemo.a */,
@@ -118,12 +157,14 @@
 		8E2F8A3D1E3089FE0051D6EF /* JSPatchDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8E2F8A821E343FC70051D6EF /* JSPatchDemo.entitlements */,
 				8E2F8A6C1E30AB900051D6EF /* Request */,
 				8E2F8A411E3089FE0051D6EF /* AppDelegate.h */,
 				8E2F8A421E3089FE0051D6EF /* AppDelegate.m */,
 				8E2F8A441E3089FE0051D6EF /* ViewController.h */,
 				8E2F8A451E3089FE0051D6EF /* ViewController.m */,
-				8E2F8A801E31E24F0051D6EF /* main.js */,
+				8E2F8A851E34554E0051D6EF /* main1.js */,
+				8E2F8A871E3455F50051D6EF /* dribbble */,
 				8E2F8A561E308BAE0051D6EF /* SecondViewController.h */,
 				8E2F8A571E308BAE0051D6EF /* SecondViewController.m */,
 				8E2F8A581E308BAE0051D6EF /* SecondViewController.xib */,
@@ -165,6 +206,34 @@
 			path = Request;
 			sourceTree = "<group>";
 		};
+		8E2F8A871E3455F50051D6EF /* dribbble */ = {
+			isa = PBXGroup;
+			children = (
+				8E2F8A881E3455F50051D6EF /* CommonDefine.js */,
+				8E2F8A891E3455F50051D6EF /* DBDataSource.js */,
+				8E2F8A8A1E3455F50051D6EF /* DBDetailController.js */,
+				8E2F8A8B1E3455F50051D6EF /* DBDetailViews.js */,
+				8E2F8A8C1E3455F50051D6EF /* DBTimelineController.js */,
+				8E2F8A8D1E3455F50051D6EF /* DBTimelineViews.js */,
+				8E2F8A8E1E3455F50051D6EF /* DBUserController.js */,
+				8E2F8A8F1E3455F50051D6EF /* DBUserViews.js */,
+				8E2F8A901E3455F50051D6EF /* imgs */,
+				8E2F8A941E3455F50051D6EF /* main.js */,
+				8E2F8A951E3455F50051D6EF /* tmpData.js */,
+			);
+			path = dribbble;
+			sourceTree = "<group>";
+		};
+		8E2F8A901E3455F50051D6EF /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				8E2F8A911E3455F50051D6EF /* comment@2x.png */,
+				8E2F8A921E3455F50051D6EF /* like@2x.png */,
+				8E2F8A931E3455F50051D6EF /* view@2x.png */,
+			);
+			path = imgs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -201,6 +270,14 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 24BFU8L6E8;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -227,11 +304,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E2F8A9C1E3455F50051D6EF /* DBUserController.js in Resources */,
+				8E2F8A9E1E3455F50051D6EF /* comment@2x.png in Resources */,
+				8E2F8A9B1E3455F50051D6EF /* DBTimelineViews.js in Resources */,
+				8E2F8AA21E3455F50051D6EF /* tmpData.js in Resources */,
+				8E2F8A991E3455F50051D6EF /* DBDetailViews.js in Resources */,
 				8E2F8A4E1E3089FE0051D6EF /* LaunchScreen.storyboard in Resources */,
+				8E2F8A961E3455F50051D6EF /* CommonDefine.js in Resources */,
+				8E2F8A861E34554E0051D6EF /* main1.js in Resources */,
+				8E2F8A971E3455F50051D6EF /* DBDataSource.js in Resources */,
 				8E2F8A4B1E3089FE0051D6EF /* Assets.xcassets in Resources */,
+				8E2F8AA01E3455F50051D6EF /* view@2x.png in Resources */,
 				8E2F8A601E308BAE0051D6EF /* ThirdViewController.xib in Resources */,
-				8E2F8A811E31E24F0051D6EF /* main.js in Resources */,
+				8E2F8A9A1E3455F50051D6EF /* DBTimelineController.js in Resources */,
+				8E2F8A9D1E3455F50051D6EF /* DBUserViews.js in Resources */,
 				8E2F8A491E3089FE0051D6EF /* Main.storyboard in Resources */,
+				8E2F8A9F1E3455F50051D6EF /* like@2x.png in Resources */,
+				8E2F8AA11E3455F50051D6EF /* main.js in Resources */,
+				8E2F8A981E3455F50051D6EF /* DBDetailController.js in Resources */,
 				8E2F8A5E1E308BAE0051D6EF /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +509,7 @@
 			baseConfigurationReference = FCE77B263335720BC998B2EE /* Pods-JSPatchDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JSPatchDemo/JSPatchDemo.entitlements;
 				DEVELOPMENT_TEAM = 24BFU8L6E8;
 				INFOPLIST_FILE = JSPatchDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -433,6 +524,7 @@
 			baseConfigurationReference = C23A39CA9C7BCE00CD292D19 /* Pods-JSPatchDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JSPatchDemo/JSPatchDemo.entitlements;
 				DEVELOPMENT_TEAM = 24BFU8L6E8;
 				INFOPLIST_FILE = JSPatchDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

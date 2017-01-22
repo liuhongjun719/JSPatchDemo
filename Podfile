@@ -8,5 +8,7 @@ pod 'AFNetworking'
 pod 'MJExtension'
 pod 'SDWebImage', :inhibit_warnings => true
 pod 'JSPatchPlatform'
+pod 'JSPatch/Extensions'
+pod 'JSPatch/JPCFunction'
 
 end

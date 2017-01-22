@@ -11,7 +11,8 @@
 #import "RequestManager.h"
 #import "ResponseObject.h"
 
-@interface ThirdViewController ()<UITableViewDelegate, UITableViewDataSource>
+@interface ThirdViewController ()
+//<UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) ResponseObject *responseObject;
 @property (nonatomic, strong) NSArray *dataArray;
 @property (nonatomic, strong) NSString *stringOne;

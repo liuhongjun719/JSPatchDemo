@@ -23,6 +23,10 @@ PODS:
   - JSPatch (1.1.2):
     - JSPatch/Core (= 1.1.2)
   - JSPatch/Core (1.1.2)
+  - JSPatch/Extensions (1.1.2):
+    - JSPatch/Core
+  - JSPatch/JPCFunction (1.1.2):
+    - JSPatch/Core
   - JSPatchPlatform (1.6.5):
     - JSPatchPlatform/Core (= 1.6.5)
   - JSPatchPlatform/Core (1.6.5):
@@ -35,6 +39,8 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - JSPatch/Extensions
+  - JSPatch/JPCFunction
   - JSPatchPlatform
   - Masonry
   - MJExtension
@@ -48,6 +54,6 @@ SPEC CHECKSUMS:
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
 
-PODFILE CHECKSUM: a680066001192ef70259ab77e1e118555aca1a69
+PODFILE CHECKSUM: 5bb926084c373c506db486efb30bc14d520dd490
 
 COCOAPODS: 1.2.0.beta.1
